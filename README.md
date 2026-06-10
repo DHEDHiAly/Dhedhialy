@@ -1,6 +1,8 @@
+<h1 align="center">Aly Dhedhi <img src="./assets/spinning-molecule.svg" alt="Spinning Molecule" width="32" valign="middle" /></h1>
+
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=30&duration=3200&pause=900&center=true&vCenter=true&width=980&lines=Software+Engineer+%7C+Healthcare+AI;Embeddings+%7C+Drug+Discovery+%7C+Single-Cell+Analysis;Building+AI+Systems+for+Clinical+Impact" alt="Typing Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=30&duration=3200&pause=900&center=true&vCenter=true&width=980&color=8B0000&lines=Software+Engineer+%7C+Healthcare+AI;Embeddings+%7C+Drug+Discovery+%7C+Single-Cell+Analysis;Building+AI+Systems+for+Clinical+Impact" alt="Typing Banner" />
   </a>
 </p>
 
@@ -62,31 +64,31 @@ For the past four years, I have supported fundraising efforts for The Citizens F
 ## GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DHEDHiAly&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DHEDHiAly&layout=compact&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=DHEDHiAly&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&title_color=8B0000&icon_color=8B0000&text_color=111111&bg_color=ffffff" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DHEDHiAly&layout=compact&hide_border=true&langs_count=8&title_color=8B0000&text_color=111111&bg_color=ffffff" alt="Top Languages" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=DHEDHiAly&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=DHEDHiAly&hide_border=true&ring=8B0000&fire=8B0000&currStreakLabel=8B0000" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DHEDHiAly/DHEDHiAly/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" />
+  <img src="https://raw.githubusercontent.com/DHEDHiAly/Dhedhialy/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" />
 </p>
 
 ## Contact
 
 <p align="center">
   <a href="https://www.linkedin.com/in/aly-dhedhi-673228350">
-    <img src="https://img.shields.io/badge/LinkedIn-Aly%20Dhedhi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Aly%20Dhedhi-8B0000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:alyd@mit.edu">
-    <img src="https://img.shields.io/badge/Professional%20Email-alyd%40mit.edu-1F2937?style=for-the-badge&logo=gmail&logoColor=white" alt="Professional Email" />
+    <img src="https://img.shields.io/badge/Professional%20Email-alyd%40mit.edu-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Professional Email" />
   </a>
   <a href="mailto:alydhedhi@gmail.com">
-    <img src="https://img.shields.io/badge/Personal%20Email-alydhedhi%40gmail.com-6B7280?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Email" />
+    <img src="https://img.shields.io/badge/Personal%20Email-alydhedhi%40gmail.com-FFFFFF?style=for-the-badge&logo=gmail&logoColor=8B0000" alt="Personal Email" />
   </a>
   <a href="https://github.com/DHEDHiAly">
-    <img src="https://img.shields.io/badge/GitHub-DHEDHiAly-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-DHEDHiAly-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
