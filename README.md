@@ -1,16 +1,92 @@
-## Hi there 👋
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=30&duration=3200&pause=900&center=true&vCenter=true&width=980&lines=Software+Engineer+%7C+Healthcare+AI;Embeddings+%7C+Drug+Discovery+%7C+Single-Cell+Analysis;Building+AI+Systems+for+Clinical+Impact" alt="Typing Banner" />
+  </a>
+</p>
 
-<!--
-**DHEDHiAly/Dhedhialy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  MIT CSAIL • Healthcare AI • Drug Discovery • Multimodal Learning
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About Me
+
+I am a software engineer and researcher building AI systems that help researchers and clinicians navigate complex biomedical data. My work sits at the intersection of engineering rigor and translational machine learning.
+
+I focus on healthcare AI, multimodal representation learning, drug discovery, single-cell analysis, and clinical decision support. Across projects, I prioritize traceability, reproducibility, and practical utility for scientific teams.
+
+I am especially interested in translating machine learning research into tools that improve scientific reasoning and patient outcomes, with particular interest in medical oncology and translational medicine.
+
+## Selected Work
+
+<details>
+  <summary><strong>Cartograph</strong></summary>
+  <br />
+
+  A module that transforms multimodal biomedical data into interactive knowledge maps that support exploration, reasoning, and scientific discovery. Cartograph was developed within one of MIT CSAIL's broader AI initiatives and leverages the initiative's existing cognitive cartography framework.
+
+  - Standardized heterogeneous biomedical inputs into immutable Evidence Objects.
+  - Constructed evidence timelines for traceability and reproducibility.
+  - Aligned embedding spaces spanning hypotheses, experimental evidence, uncertainty, and opportunity landscapes.
+  - Detected discrepancies between assumptions and experimental observations.
+  - Identified potential drug repurposing opportunities by projecting unexplored biological targets into shared representation spaces.
+  - Developed deterministic agentic workflows that improve traceability and reduce hallucinations.
+  - Modeled longitudinal patient trajectories using embedding representations to support clinical understanding.
+</details>
+
+<details>
+  <summary><strong>RADAR</strong></summary>
+  <br />
+
+  Developed pipelines that extract participant demographics from major clinical journals and evaluate studies for potential clinical bias, enabling large-scale assessment of representation within clinical research populations.
+
+  Repository: https://github.com/duckyquang/RADAR
+</details>
+
+## Areas of Interest
+
+- Medical Oncology
+- Drug Discovery
+- Healthcare AI
+- Single-Cell Analysis
+- Multimodal Representation Learning
+- Clinical Decision Support
+- Reinforcement Learning for Healthcare
+- Privacy-Preserving AI
+
+## Community Impact
+
+For the past four years, I have supported fundraising efforts for The Citizens Foundation to expand educational opportunities for underprivileged children in Pakistan, helping raise more than **$21,000 USD**.
+
+## GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DHEDHiAly&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DHEDHiAly&layout=compact&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=DHEDHiAly&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DHEDHiAly/DHEDHiAly/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" />
+</p>
+
+## Contact
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/aly-dhedhi-673228350">
+    <img src="https://img.shields.io/badge/LinkedIn-Aly%20Dhedhi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:alyd@mit.edu">
+    <img src="https://img.shields.io/badge/Professional%20Email-alyd%40mit.edu-1F2937?style=for-the-badge&logo=gmail&logoColor=white" alt="Professional Email" />
+  </a>
+  <a href="mailto:alydhedhi@gmail.com">
+    <img src="https://img.shields.io/badge/Personal%20Email-alydhedhi%40gmail.com-6B7280?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Email" />
+  </a>
+  <a href="https://github.com/DHEDHiAly">
+    <img src="https://img.shields.io/badge/GitHub-DHEDHiAly-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
