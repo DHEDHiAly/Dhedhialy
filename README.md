@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=30&duration=3200&pause=900&center=true&vCenter=true&width=980&lines=Software+Engineer+%7C+Healthcare+AI;Embeddings+%7C+Drug+Discovery+%7C+Single-Cell+Analysis;Building+AI+Systems+for+Clinical+Impact&color=DC143C&background=0a0a0a" alt="Typing Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=30&duration=3200&pause=900&center=true&vCenter=true&width=980&lines=Research;Single+Cell;Oncology;RL+%7C+DL+%7C+TDL+%7C+TDA&color=DC143C&background=0a0a0a" alt="Typing Banner" />
   </a>
 </p>
 
