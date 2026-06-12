@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=30&duration=3200&pause=900&center=true&vCenter=true&width=980&lines=Research;Single+Cell;Oncology;RL+%7C+DL+%7C+TDL+%7C+TDA&color=DC143C&background=0a0a0a" alt="Typing Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=30&duration=3200&pause=900&center=true&vCenter=true&width=980&lines=Research;Single+Cell;Oncology;RL+%7C+DL+%7C+TDL+%7C+TDA&color=DC143C" alt="Typing Banner" />
   </a>
 </p>
 
@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <img src="assets/dna.svg" alt="DNA" width="55" style="vertical-align: middle;" />&nbsp;
-  <span style="font-size: 28px; font-weight: 700; color: #ffffff; vertical-align: middle;">Aly Dhedhi</span>
+  <img src="assets/dna.svg" alt="DNA" width="75" style="vertical-align: middle;" />&nbsp;&nbsp;
+  <span style="font-size: 34px; font-weight: 700; color: #ffffff; vertical-align: middle;">Aly Dhedhi</span>
 </p>
 
 ---
