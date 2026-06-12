@@ -9,7 +9,8 @@
 </p>
 
 <p align="center">
-  <img src="assets/spinning-molecule.svg" alt="3D Molecular Representation" width="100%" />
+  <img src="assets/dna.svg" alt="DNA" width="55" style="vertical-align: middle;" />&nbsp;
+  <span style="font-size: 28px; font-weight: 700; color: #ffffff; vertical-align: middle;">Aly Dhedhi</span>
 </p>
 
 ---

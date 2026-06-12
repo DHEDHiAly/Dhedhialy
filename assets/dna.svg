@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 100" width="70" height="100">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="20%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="baseFade" x1="0" y1="0" x2="0" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.1"/>
+      <stop offset="15%" stop-color="#fff" stop-opacity="0.6"/>
+      <stop offset="85%" stop-color="#fff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Frame 0°: Front view - strands cross -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <animate attributeName="opacity" values="1;0;0;0;1" dur="2.4s" repeatCount="indefinite"/>
+    <g>
+      <path d="M 15,8 C 32,28 42,32 58,50 C 42,68 32,72 15,92" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.9"/>
+      <path d="M 55,8 C 38,28 28,32 12,50 C 28,68 38,72 55,92" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.4"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="1.2" opacity="0.5">
+      <line x1="20" y1="17" x2="50" y2="22"/>
+      <line x1="32" y1="32" x2="37" y2="36"/>
+      <line x1="51" y1="48" x2="18" y2="53"/>
+      <line x1="37" y1="64" x2="33" y2="68"/>
+      <line x1="18" y1="78" x2="52" y2="83"/>
+    </g>
+  </g>
+
+  <!-- Frame 72° -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <animate attributeName="opacity" values="0;1;0;0;0" dur="2.4s" repeatCount="indefinite"/>
+    <g>
+      <path d="M 18,8 C 27,28 40,32 50,50 C 37,68 27,72 20,92" fill="none" stroke="#ffffff" stroke-width="3.5" opacity="0.8"/>
+      <path d="M 52,8 C 43,28 30,32 20,50 C 33,68 43,72 50,92" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.35"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="1.2" opacity="0.45">
+      <line x1="24" y1="17" x2="47" y2="22"/>
+      <line x1="35" y1="32" x2="35" y2="36"/>
+      <line x1="49" y1="48" x2="21" y2="53"/>
+      <line x1="35" y1="64" x2="35" y2="68"/>
+      <line x1="22" y1="78" x2="49" y2="83"/>
+    </g>
+  </g>
+
+  <!-- Frame 144°: Side view - strands parallel -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <animate attributeName="opacity" values="0;0;1;0;0" dur="2.4s" repeatCount="indefinite"/>
+    <g>
+      <path d="M 20,8 C 17,28 17,50 20,70 C 18,80 20,88 20,92" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.7"/>
+      <path d="M 50,8 C 53,28 53,50 50,70 C 52,80 50,88 50,92" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.3"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="1" opacity="0.35">
+      <line x1="20" y1="18" x2="50" y2="18"/>
+      <line x1="20" y1="33" x2="50" y2="33"/>
+      <line x1="20" y1="48" x2="50" y2="48"/>
+      <line x1="20" y1="63" x2="50" y2="63"/>
+      <line x1="20" y1="78" x2="50" y2="78"/>
+    </g>
+  </g>
+
+  <!-- Frame 216° -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <animate attributeName="opacity" values="0;0;0;1;0" dur="2.4s" repeatCount="indefinite"/>
+    <g>
+      <path d="M 52,8 C 43,28 30,32 20,50 C 33,68 43,72 52,92" fill="none" stroke="#ffffff" stroke-width="3.5" opacity="0.8"/>
+      <path d="M 18,8 C 27,28 40,32 50,50 C 37,68 27,72 18,92" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.35"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="1.2" opacity="0.45">
+      <line x1="47" y1="17" x2="24" y2="22"/>
+      <line x1="35" y1="32" x2="35" y2="36"/>
+      <line x1="21" y1="48" x2="49" y2="53"/>
+      <line x1="35" y1="64" x2="35" y2="68"/>
+      <line x1="49" y1="78" x2="22" y2="83"/>
+    </g>
+  </g>
+
+  <!-- Glow filter overlay -->
+  <rect x="0" y="0" width="70" height="100" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.08" rx="8"/>
+</svg>
