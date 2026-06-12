@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 130" width="240" height="130">
+  <defs>
+    <linearGradient id="doomGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff1a3d"/>
+      <stop offset="50%" stop-color="#DC143C"/>
+      <stop offset="100%" stop-color="#8b0000"/>
+    </linearGradient>
+  </defs>
+  <text x="122" y="54" text-anchor="middle" font-family="Impact, Arial Black, sans-serif"
+        font-size="48" font-weight="900" fill="#000" opacity="0.35">ALY</text>
+  <text x="120" y="52" text-anchor="middle" font-family="Impact, Arial Black, sans-serif"
+        font-size="48" font-weight="900" fill="url(#doomGrad)" stroke="#4a0000" stroke-width="1.5">ALY</text>
+  <text x="122" y="110" text-anchor="middle" font-family="Impact, Arial Black, sans-serif"
+        font-size="48" font-weight="900" fill="#000" opacity="0.35">DHEDHI</text>
+  <text x="120" y="108" text-anchor="middle" font-family="Impact, Arial Black, sans-serif"
+        font-size="48" font-weight="900" fill="url(#doomGrad)" stroke="#4a0000" stroke-width="1.5">DHEDHI</text>
+</svg>

@@ -8,16 +8,10 @@
   <b style="color:#DC143C">MIT CSAIL</b> <span style="color:#666">•</span> <span style="color:#fff">Healthcare AI</span> <span style="color:#666">•</span> <span style="color:#fff">Drug Discovery</span> <span style="color:#666">•</span> <span style="color:#fff">Multimodal Learning</span>
 </p>
 
-<table style="border: none; background: none; margin: 0 auto;"><tr>
-  <td style="border: none; padding: 0; vertical-align: middle; text-align: right;">
-    <img src="assets/dna.gif" alt="DNA" width="140" style="display: block;" />
-  </td>
-  <td style="border: none; padding: 0 0 0 40px; vertical-align: middle; text-align: center;">
-    <div style="font-size: 52px; font-weight: 900; color: #DC143C; line-height: 1.1; letter-spacing: 3px; text-transform: uppercase; font-family: Arial, Helvetica, sans-serif; text-shadow: 0 0 25px rgba(220,20,60,0.5);">
-      ALY<br/>DHEDHI
-    </div>
-  </td>
-</tr></table>
+<p align="center">
+  <img src="assets/dna.gif" alt="DNA" width="130" style="vertical-align: middle;" />
+  <img src="assets/logo.svg" alt="ALY DHEDHI" width="220" style="vertical-align: middle; margin-left: 20px;" />
+</p>
 
 ---
 
