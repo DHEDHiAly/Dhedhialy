@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="molecule.svg" alt="3D Molecular Representation" width="100%" />
+  <img src="assets/spinning-molecule.svg" alt="3D Molecular Representation" width="100%" />
 </p>
 
 ---
@@ -66,16 +66,16 @@ For the past four years, I have supported fundraising efforts for The Citizens F
 ## <span style="color:#DC143C">GitHub Analytics</span>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DHEDHiAly&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&title_color=DC143C&text_color=ffffff&bg_color=0a0a0a&icon_color=DC143C&border_color=DC143C" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DHEDHiAly&layout=compact&hide_border=true&langs_count=8&title_color=DC143C&text_color=ffffff&bg_color=0a0a0a&border_color=DC143C" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=DHEDHiAly&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DHEDHiAly&layout=compact&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=DHEDHiAly&hide_border=true&border=DC143C&ring=DC143C&fire=DC143C&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=DC143C&sideLabels=ffffff&dates=888888&background=0a0a0a" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=DHEDHiAly&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DHEDHiAly&bg_color=0a0a0a&color=DC143C&line=DC143C&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" />
+  <img src="https://raw.githubusercontent.com/DHEDHiAly/Dhedhialy/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" />
 </p>
 
 ## <span style="color:#DC143C">Contact</span>
