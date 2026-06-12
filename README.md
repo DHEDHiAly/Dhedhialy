@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/dna.svg" alt="DNA" width="75" style="vertical-align: middle;" />&nbsp;&nbsp;
+  <img src="assets/dna.gif" alt="DNA" width="80" style="vertical-align: middle;" />&nbsp;&nbsp;
   <span style="font-size: 34px; font-weight: 700; color: #ffffff; vertical-align: middle;">Aly Dhedhi</span>
 </p>
 
