@@ -7,12 +7,6 @@
 <p align="center">
   <b style="color:#DC143C">MIT CSAIL</b> <span style="color:#666">•</span> <span style="color:#fff">Healthcare AI</span> <span style="color:#666">•</span> <span style="color:#fff">Drug Discovery</span> <span style="color:#666">•</span> <span style="color:#fff">Multimodal Learning</span>
 </p>
-
-<p>
-  <img src="assets/dna.gif" alt="DNA" width="100" style="float: left;" />
-  <span style="display: block; text-align: center; font-size: 44px; font-weight: 800; color: #ffffff; line-height: 165px;">Aly Dhedhi</span>
-</p>
-
 ---
 
 ## <span style="color:#DC143C">About Me</span>
