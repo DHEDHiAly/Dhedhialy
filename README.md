@@ -7,7 +7,6 @@
 <p align="center">
   <b style="color:#DC143C">MIT CSAIL</b> <span style="color:#666">•</span> <span style="color:#fff">Healthcare AI</span> <span style="color:#666">•</span> <span style="color:#fff">Drug Discovery</span> <span style="color:#666">•</span> <span style="color:#fff">Multimodal Learning</span>
 </p>
----
 
 ## <span style="color:#DC143C">About Me</span>
 
