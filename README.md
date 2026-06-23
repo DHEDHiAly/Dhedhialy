@@ -17,22 +17,6 @@ I focus on healthcare AI, multimodal representation learning, drug discovery, si
 I am especially interested in translating machine learning research into tools that improve scientific reasoning and patient outcomes, with particular interest in medical oncology and translational medicine.
 
 ## <span style="color:#DC143C">Selected Work</span>
-
-<details>
-  <summary><strong style="color:#DC143C">Cartograph</strong></summary>
-  <br />
-
-  A module that transforms multimodal biomedical data into interactive knowledge maps that support exploration, reasoning, and scientific discovery. Cartograph was developed within one of MIT CSAIL's broader AI initiatives and leverages the initiative's existing cognitive cartography framework.
-
-  - Standardized heterogeneous biomedical inputs into immutable Evidence Objects.
-  - Constructed evidence timelines for traceability and reproducibility.
-  - Aligned embedding spaces spanning hypotheses, experimental evidence, uncertainty, and opportunity landscapes.
-  - Detected discrepancies between assumptions and experimental observations.
-  - Identified potential drug repurposing opportunities by projecting unexplored biological targets into shared representation spaces.
-  - Developed deterministic agentic workflows that improve traceability and reduce hallucinations.
-  - Modeled longitudinal patient trajectories using embedding representations to support clinical understanding.
-</details>
-
 <details>
   <summary><strong style="color:#DC143C">RADAR</strong></summary>
   <br />
