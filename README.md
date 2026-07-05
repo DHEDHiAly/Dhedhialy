@@ -108,10 +108,13 @@ I am especially interested in translating machine learning research into tools t
 </details>
 
 ---
+<<<<<<< HEAD
 
 ## Community Impact
 
 For the past four years, I have supported fundraising efforts for The Citizens Foundation to expand educational opportunities for underprivileged children in Pakistan, helping raise more than **$21,000 USD**.
+=======
+>>>>>>> 4fcabb3 (reformat README with proper HTML5 layout, capsule banners, crimson accents)
 
 ---
 
@@ -128,7 +131,11 @@ For the past four years, I have supported fundraising efforts for The Citizens F
 
 <br/><br/>
 
+<<<<<<< HEAD
 <img src="https://raw.githubusercontent.com/DHEDHiAly/Dhedhialy/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation"/>
+=======
+<img src="https://raw.githubusercontent.com/DHEDHiAly/DHEDHiAly/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation"/>
+>>>>>>> 4fcabb3 (reformat README with proper HTML5 layout, capsule banners, crimson accents)
 
 </div>
 
