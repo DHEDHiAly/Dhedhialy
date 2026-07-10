@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aly Dhedhi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:#0a0a0a;color:#c0c0c0;font-family:'JetBrains Mono',monospace;overflow-x:hidden}
+::selection{background:#00ff41;color:#0a0a0a}
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:#0a0a0a}
+::-webkit-scrollbar-thumb{background:#005a1a;border-radius:3px}
+
+/* ── Matrix Rain ── */
+.matrix-container{position:fixed;inset:0;z-index:0;background:#000;display:flex}
+.matrix-pattern{position:relative;width:100%;height:100%}
+.matrix-column{position:absolute;top:-100%;width:20px;height:100%;font-size:16px;line-height:18px;font-weight:700;animation:matrix-fall linear infinite;white-space:nowrap}
+.matrix-column::before{content:"welcomewelcomewelcomewelcomewelcomewelcomewelcomewelcomewelcomewelcomewelcomewelcomewelcomewelcomewelcome";position:absolute;top:0;left:0;background:linear-gradient(to bottom,#fff 0%,#fff 5%,#00ff41 10%,#00ff41 20%,#00dd33 30%,#00bb22 40%,#009911 50%,#007700 60%,#005500 70%,#003300 80%,rgba(0,255,65,.5) 90%,transparent 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;writing-mode:vertical-lr;letter-spacing:2px;text-rendering:optimizeLegibility}
+.matrix-column:nth-child(1){left:0;animation-delay:-2.5s;animation-duration:3s;opacity:.3}
+.matrix-column:nth-child(2){left:25px;animation-delay:-3.2s;animation-duration:4s;opacity:.15}
+.matrix-column:nth-child(3){left:50px;animation-delay:-1.8s;animation-duration:2.5s;opacity:.25}
+.matrix-column:nth-child(4){left:75px;animation-delay:-2.9s;animation-duration:3.5s;opacity:.1}
+.matrix-column:nth-child(5){left:100px;animation-delay:-1.5s;animation-duration:3s;opacity:.2}
+.matrix-column:nth-child(6){left:125px;animation-delay:-3.8s;animation-duration:4.5s;opacity:.1}
+.matrix-column:nth-child(7){left:150px;animation-delay:-2.1s;animation-duration:2.8s;opacity:.3}
+.matrix-column:nth-child(8){left:175px;animation-delay:-2.7s;animation-duration:3.2s;opacity:.15}
+.matrix-column:nth-child(9){left:200px;animation-delay:-3.4s;animation-duration:3.8s;opacity:.2}
+.matrix-column:nth-child(10){left:225px;animation-delay:-1.9s;animation-duration:2.7s;opacity:.1}
+.matrix-column:nth-child(11){left:250px;animation-delay:-3.6s;animation-duration:4.2s;opacity:.25}
+.matrix-column:nth-child(12){left:275px;animation-delay:-2.3s;animation-duration:3.1s;opacity:.15}
+.matrix-column:nth-child(13){left:300px;animation-delay:-3.1s;animation-duration:3.6s;opacity:.1}
+.matrix-column:nth-child(14){left:325px;animation-delay:-2.6s;animation-duration:2.9s;opacity:.3}
+.matrix-column:nth-child(15){left:350px;animation-delay:-3.7s;animation-duration:4.1s;opacity:.15}
+.matrix-column:nth-child(16){left:375px;animation-delay:-2.8s;animation-duration:3.3s;opacity:.2}
+.matrix-column:nth-child(17){left:400px;animation-delay:-3.3s;animation-duration:3.7s;opacity:.1}
+.matrix-column:nth-child(18){left:425px;animation-delay:-2.2s;animation-duration:2.6s;opacity:.25}
+.matrix-column:nth-child(19){left:450px;animation-delay:-3.9s;animation-duration:4.3s;opacity:.15}
+.matrix-column:nth-child(20){left:475px;animation-delay:-2.4s;animation-duration:2.8s;opacity:1!important;width:40px;font-size:24px;line-height:28px;z-index:2}
+.matrix-column:nth-child(20)::before{font-size:24px;line-height:28px;letter-spacing:4px}
+.matrix-column:nth-child(21){left:500px;animation-delay:-1.7s;animation-duration:2.4s;opacity:.1}
+.matrix-column:nth-child(22){left:525px;animation-delay:-3.5s;animation-duration:3.9s;opacity:.3}
+.matrix-column:nth-child(23){left:550px;animation-delay:-2s;animation-duration:3s;opacity:.15}
+.matrix-column:nth-child(24){left:575px;animation-delay:-4s;animation-duration:4.4s;opacity:.2}
+.matrix-column:nth-child(25){left:600px;animation-delay:-1.6s;animation-duration:2.3s;opacity:.1}
+.matrix-column:nth-child(26){left:625px;animation-delay:-3s;animation-duration:3.5s;opacity:.25}
+.matrix-column:nth-child(27){left:650px;animation-delay:-3.8s;animation-duration:4s;opacity:.15}
+.matrix-column:nth-child(28){left:675px;animation-delay:-2.5s;animation-duration:2.8s;opacity:.1}
+.matrix-column:nth-child(29){left:700px;animation-delay:-3.2s;animation-duration:3.6s;opacity:.3}
+.matrix-column:nth-child(30){left:725px;animation-delay:-2.7s;animation-duration:3.2s;opacity:.15}
+.matrix-column:nth-child(31){left:750px;animation-delay:-1.8s;animation-duration:2.7s;opacity:.2}
+.matrix-column:nth-child(32){left:775px;animation-delay:-3.6s;animation-duration:4.1s;opacity:.1}
+.matrix-column:nth-child(33){left:800px;animation-delay:-2.1s;animation-duration:3.1s;opacity:.25}
+.matrix-column:nth-child(34){left:825px;animation-delay:-3.4s;animation-duration:3.7s;opacity:.15}
+.matrix-column:nth-child(35){left:850px;animation-delay:-2.8s;animation-duration:2.9s;opacity:.2}
+.matrix-column:nth-child(36){left:875px;animation-delay:-3.7s;animation-duration:4.2s;opacity:.1}
+.matrix-column:nth-child(37){left:900px;animation-delay:-2.3s;animation-duration:3.3s;opacity:.3}
+.matrix-column:nth-child(38){left:925px;animation-delay:-1.9s;animation-duration:2.5s;opacity:.15}
+.matrix-column:nth-child(39){left:950px;animation-delay:-3.5s;animation-duration:3.8s;opacity:.2}
+.matrix-column:nth-child(40){left:975px;animation-delay:-2.6s;animation-duration:3.4s;opacity:.1}
+
+@keyframes matrix-fall{0%{transform:translateY(-10%);opacity:1}100%{transform:translateY(200%);opacity:0}}
+
+@media(max-width:768px){.matrix-column{font-size:14px;line-height:16px;width:18px}.matrix-column:nth-child(20){font-size:20px;line-height:24px;width:30px}}
+@media(max-width:480px){.matrix-column{font-size:12px;line-height:14px;width:15px}.matrix-column:nth-child(20){font-size:16px;line-height:20px;width:24px}}
+
+/* ── Content ── */
+.content{position:relative;z-index:10;padding:0 16px 120px}
+.content-inner{max-width:720px;margin:0 auto}
+
+.terminal-line{margin-bottom:16px}
+.terminal-label{color:#005a1a;font-size:11px;margin-bottom:4px;user-select:none}
+.terminal-label span{color:#00ff41}
+.terminal-body{padding-left:16px;border-left:2px solid rgba(0,90,26,.4)}
+.terminal-body p{line-height:1.7;margin-bottom:8px}
+
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.reveal.show{opacity:1;transform:translateY(0)}
+
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:32px}
+.stat-card{border:1px solid rgba(0,90,26,.3);border-radius:8px;padding:16px;text-align:center;background:rgba(10,10,10,.6);backdrop-filter:blur(4px)}
+.stat-count{font-size:22px;font-weight:700;background:linear-gradient(to bottom,#00ff41,#00bb22);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.stat-label{font-size:10px;color:#005a1a;margin-top:4px;text-transform:uppercase;letter-spacing:1px;font-family:'JetBrains Mono',monospace}
+
+.area-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.area-item{display:flex;align-items:flex-start;gap:10px}
+.area-bullet{color:#00ff41;margin-top:3px;flex-shrink:0}
+.area-text{color:rgba(192,192,192,.8);font-size:13px}
+
+details{margin-bottom:16px;cursor:pointer}
+summary{color:#00ff41;font-family:'JetBrains Mono',monospace;cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px}
+summary .arrow{color:#005a1a;transition:color .2s}
+details[open] .arrow{color:#00ff41}
+.project-body{margin-top:12px;margin-left:24px}
+.project-body p{color:rgba(192,192,192,.7);font-size:13px;margin-bottom:8px}
+.project-body li{color:rgba(192,192,192,.6);font-size:12px;margin-bottom:4px;display:flex;align-items:flex-start;gap:8px}
+.project-body li::before{content:"-";color:#005a1a}
+
+.contact-links{display:flex;flex-wrap:wrap;gap:10px}
+.contact-links a{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border:1px solid rgba(0,90,26,.3);border-radius:6px;font-size:12px;font-family:'JetBrains Mono',monospace;color:rgba(192,192,192,.7);text-decoration:none;transition:color .3s,border-color .3s}
+.contact-links a:hover{color:#00ff41;border-color:rgba(0,255,65,.5)}
+.contact-links a .prompt{color:#00ff41}
+
+.chart-wrap{background:rgba(10,10,10,.4);border-radius:8px;padding:16px;border:1px solid rgba(0,90,26,.2)}
+.chart-wrap img{width:100%;filter:brightness(.9) contrast(1.1)}
+
+.hero{position:relative;z-index:10;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;padding:0 16px;text-align:center}
+.hero h1{font-size:clamp(2.5rem,8vw,5rem);font-weight:700;font-family:'JetBrains Mono',monospace;color:#00ff41;margin-bottom:8px;opacity:0;transition:opacity 1s}
+.hero h1.show{opacity:1}
+.hero .sub{font-size:13px;font-family:'JetBrains Mono',monospace;color:rgba(192,192,192,.5)}
+.hero .sub span{color:#005a1a}
+
+.scroll-prompt{margin-top:80px;display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer;opacity:0;transition:opacity 1s}
+.scroll-prompt.show{opacity:1}
+.scroll-prompt .text{color:#005a1a;font-size:11px;font-family:'JetBrains Mono',monospace;animation:pulse-glow 2s infinite}
+.scroll-prompt .mouse{width:14px;height:26px;border:2px solid #005a1a;border-radius:10px;display:flex;justify-content:center;padding:3px}
+.scroll-prompt .mouse .dot{width:3px;height:6px;background:#00ff41;border-radius:4px;animation:bounce 1.5s infinite}
+
+@keyframes pulse-glow{0%,100%{opacity:.4}50%{opacity:1}}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+
+.footer{text-align:center;margin-top:80px}
+.footer p{color:#005a1a;font-size:11px;font-family:'JetBrains Mono',monospace}
+.footer .name{color:#00ff41}
+.footer .tag{color:rgba(0,90,26,.5);font-size:10px;margin-top:4px}
+
+@media(max-width:600px){
+  .stat-grid{grid-template-columns:repeat(2,1fr)}
+  .area-grid{grid-template-columns:1fr}
+  .hero h1{font-size:2.5rem}
+}
+</style>
+</head>
+<body>
+
+<div class="matrix-container">
+  <div class="matrix-pattern"></div>
+</div>
+
+<!-- Hero -->
+<section class="hero">
+  <div>
+    <h1 id="name">aly dhedhi</h1>
+    <p class="sub"><span>$</span> ./build --healthcare-ai --drug-discovery</p>
+  </div>
+  <div class="scroll-prompt" id="scrollPrompt" onclick="document.getElementById('content').scrollIntoView({behavior:'smooth'})">
+    <span class="text">$ scroll to continue...</span>
+    <div class="mouse"><div class="dot"></div></div>
+  </div>
+</section>
+
+<!-- Content -->
+<section class="content" id="content">
+  <div class="content-inner">
+
+    <!-- README -->
+    <div class="terminal-line reveal">
+      <div class="terminal-label"><span>$</span> ~/README.md</div>
+      <div class="terminal-body">
+        <p>Software engineer and researcher building AI systems that help clinicians and researchers navigate complex biomedical data. My work sits at the intersection of engineering rigor and translational machine learning.</p>
+        <p>I focus on healthcare AI, multimodal representation learning, drug discovery, single-cell analysis, and clinical decision support. Across projects, I prioritize traceability, reproducibility, and practical utility for scientific teams.</p>
+        <p>Especially interested in translating ML research into tools that improve scientific reasoning and patient outcomes — with particular interest in medical oncology and translational medicine.</p>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stat-grid">
+      <div class="stat-card reveal"><div class="stat-count">2,922</div><div class="stat-label">Commits</div></div>
+      <div class="stat-card reveal"><div class="stat-count" style="background:linear-gradient(to bottom,rgba(0,255,65,.8),#00bb22);-webkit-background-clip:text;background-clip:text">70+</div><div class="stat-label">Repos</div></div>
+      <div class="stat-card reveal"><div class="stat-count" style="background:linear-gradient(to bottom,rgba(0,255,65,.6),#00bb22);-webkit-background-clip:text;background-clip:text">17%</div><div class="stat-label">PRs</div></div>
+      <div class="stat-card reveal"><div class="stat-count" style="background:linear-gradient(to bottom,rgba(0,255,65,.4),#00bb22);-webkit-background-clip:text;background-clip:text">4%</div><div class="stat-label">Reviews</div></div>
+    </div>
+
+    <!-- Focus Areas -->
+    <div class="terminal-line reveal" style="margin-top:48px">
+      <div class="terminal-label"><span>$</span> ~/focus-areas</div>
+      <div class="terminal-body">
+        <div class="area-grid">
+          <div class="area-item"><span class="area-bullet">◆</span><span class="area-text">Medical Oncology — translating ML research into clinical tools</span></div>
+          <div class="area-item"><span class="area-bullet">◆</span><span class="area-text">Drug Discovery — repurposing, representation learning, single-cell analysis</span></div>
+          <div class="area-item"><span class="area-bullet">◆</span><span class="area-text">Healthcare AI — multimodal learning, clinical decision support</span></div>
+          <div class="area-item"><span class="area-bullet">◆</span><span class="area-text">Privacy-Preserving AI — secure and responsible ML in healthcare</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="terminal-line reveal" style="margin-top:48px">
+      <div class="terminal-label"><span>$</span> ~/projects</div>
+      <div class="terminal-body">
+        <details>
+          <summary><span class="arrow">&gt;</span> Cartograph</summary>
+          <div class="project-body">
+            <p>A module that transforms multimodal biomedical data into interactive knowledge maps. Built at MIT CSAIL.</p>
+            <ul style="list-style:none;padding:0">
+              <li>Standardized heterogeneous biomedical inputs into immutable Evidence Objects</li>
+              <li>Constructed evidence timelines for traceability and reproducibility</li>
+              <li>Aligned embedding spaces spanning hypotheses, evidence, uncertainty, and opportunity landscapes</li>
+              <li>Identified drug repurposing opportunities via shared representation spaces</li>
+              <li>Developed deterministic agentic workflows reducing hallucinations</li>
+            </ul>
+          </div>
+        </details>
+        <details>
+          <summary><span class="arrow">&gt;</span> RADAR</summary>
+          <div class="project-body">
+            <p>Pipelines that extract participant demographics from clinical journals and evaluate studies for clinical bias.</p>
+            <ul style="list-style:none;padding:0">
+              <li>Large-scale assessment of representation in clinical research populations</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <!-- Community -->
+    <div class="terminal-line reveal" style="margin-top:48px">
+      <div class="terminal-label"><span>$</span> ~/community</div>
+      <div class="terminal-body">
+        <div style="display:flex;align-items:flex-start;gap:10px">
+          <span style="color:#00ff41;flex-shrink:0">♥</span>
+          <p style="color:rgba(192,192,192,.7);font-size:13px;line-height:1.7">For the past four years, supported fundraising for <strong style="color:#00ff41">The Citizens Foundation</strong> to expand educational opportunities for underprivileged children in Pakistan. Raised more than <strong style="color:#00ff41">$21,000 USD</strong>.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contribution Chart -->
+    <div class="terminal-line reveal" style="margin-top:48px">
+      <div class="terminal-label"><span>$</span> ~/contributions</div>
+      <div class="terminal-body">
+        <div class="chart-wrap">
+          <img src="https://ghchart.rshah.org/00ff41/DHEDHiAly" alt="Contribution chart" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="terminal-line reveal" style="margin-top:64px">
+      <div class="terminal-label"><span>$</span> ~/contact</div>
+      <div class="terminal-body">
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/aly-dhedhi-673228350" target="_blank" rel="noopener"><span class="prompt">$</span> LinkedIn</a>
+          <a href="mailto:alyd@mit.edu"><span class="prompt">$</span> Professional Email</a>
+          <a href="mailto:alydhedhi@gmail.com"><span class="prompt">$</span> Personal Email</a>
+          <a href="https://github.com/DHEDHiAly" target="_blank" rel="noopener"><span class="prompt">$</span> GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p><span class="name">aly dhedhi</span> © 2026 — built with <span class="name">&lt;/\&gt;</span> and caffeine</p>
+      <p class="tag">[system uptime: always building]</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Generate matrix columns -->
+<script>
+(function(){
+  const p = document.querySelector('.matrix-pattern');
+  for(let i=1;i<=40;i++){
+    const col=document.createElement('div');
+    col.className='matrix-column';
+    p.appendChild(col);
+  }
+})();
+
+// Reveal animation
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');obs.unobserve(e.target)}})
+},{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+// Hero timing
+setTimeout(()=>document.getElementById('name').classList.add('show'),2000);
+setTimeout(()=>document.getElementById('scrollPrompt').classList.add('show'),3200);
+</script>
+
+</body>
+</html>
